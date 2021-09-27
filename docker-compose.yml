@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  swccweowasp:
+    image: swccweowasp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./data:/app/data
