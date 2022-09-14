@@ -1,0 +1,550 @@
+[
+    {
+        "ID": "SWC-136",
+        "ID_Link": "docs/SWC-136/",
+        "Title": "Unencrypted Private Data On-Chain",
+        "CWE_Relationship": "CWE-767: Access to Critical Private Variable via Public Method",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/767.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Exposed Resource",
+                "Number": "1403",
+                "Link": "/data/definitions/1403.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-135",
+        "ID_Link": "docs/SWC-135/",
+        "Title": "Code With No Effects",
+        "CWE_Relationship": "CWE-1164: Irrelevant Code",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/1164.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-134",
+        "ID_Link": "docs/SWC-134/",
+        "Title": "Message call with hardcoded gas amount",
+        "CWE_Relationship": "CWE-655: Improper Initialization",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/665.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Resource Lifecycle Management",
+                "Number": "1416",
+                "Link": "/data/definitions/1416.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-133",
+        "ID_Link": "docs/SWC-133/",
+        "Title": "Hash Collisions With Multiple Variable Length Arguments",
+        "CWE_Relationship": "CWE-294: Authentication Bypass by Capture-replay",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/294.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Access Control",
+                "Number": "1396",
+                "Link": "/data/definitions/1396.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-132",
+        "ID_Link": "docs/SWC-132/",
+        "Title": "Unexpected Ether balance",
+        "CWE_Relationship": "CWE-667: Improper Locking",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/667.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Concurrency",
+                "Number": "1401",
+                "Link": "/data/definitions/1401.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-131",
+        "ID_Link": "docs/SWC-131/",
+        "Title": "Presence of unused variables",
+        "CWE_Relationship": "CWE-1164: Irrelevant Code",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/1164.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-130",
+        "ID_Link": "docs/SWC-130/",
+        "Title": "Right-To-Left-Override control character (U+202E)",
+        "CWE_Relationship": "CWE-451: User Interface (UI) Misrepresentation of Critical Information",
+        "CWE_Link": "http://cwe.mitre.org/data/definitions/451.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-129",
+        "ID_Link": "docs/SWC-129/",
+        "Title": "Typographical Error",
+        "CWE_Relationship": "CWE-480: Use of Incorrect Operator",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/480.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Insufficient Control Flow Management",
+                "Number": "1410",
+                "Link": "/data/definitions/1410.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-128",
+        "ID_Link": "docs/SWC-128/",
+        "Title": "DoS With Block Gas Limit",
+        "CWE_Relationship": "CWE-400: Uncontrolled Resource Consumption",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/400.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Resource Lifecycle Management",
+                "Number": "1416",
+                "Link": "/data/definitions/1416.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-127",
+        "ID_Link": "docs/SWC-127/",
+        "Title": "Arbitrary Jump with Function Type Variable",
+        "CWE_Relationship": "CWE-695: Use of Low-Level Functionality",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/695.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-126",
+        "ID_Link": "docs/SWC-126/",
+        "Title": "Insufficient Gas Griefing",
+        "CWE_Relationship": "CWE-691: Insufficient Control Flow Management",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/691.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Insufficient Control Flow Management",
+                "Number": "1410",
+                "Link": "/data/definitions/1410.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-125",
+        "ID_Link": "docs/SWC-125/",
+        "Title": "Incorrect Inheritance Order",
+        "CWE_Relationship": "CWE-696: Incorrect Behavior Order",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/696.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Insufficient Control Flow Management",
+                "Number": "1410",
+                "Link": "/data/definitions/1410.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-124",
+        "ID_Link": "docs/SWC-124/",
+        "Title": "Write to Arbitrary Storage Location",
+        "CWE_Relationship": "CWE-123: Write-what-where Condition",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/123.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Memory Safety",
+                "Number": "1399",
+                "Link": "/data/definitions/1399.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-123",
+        "ID_Link": "docs/SWC-123/",
+        "Title": "Requirement Violation",
+        "CWE_Relationship": "CWE-573: Improper Following of Specification by Caller",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/573.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-122",
+        "ID_Link": "docs/SWC-122/",
+        "Title": "Lack of Proper Signature Verification",
+        "CWE_Relationship": "CWE-345: Insufficient Verification of Data Authenticity",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/345.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Insufficient Verification of Data Authenticity",
+                "Number": "1411",
+                "Link": "/data/definitions/1411.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-121",
+        "ID_Link": "docs/SWC-121/",
+        "Title": "Missing Protection against Signature Replay Attacks",
+        "CWE_Relationship": "CWE-347: Improper Verification of Cryptographic Signature",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/347.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Encryption",
+                "Number": "1402",
+                "Link": "/data/definitions/1402.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-120",
+        "ID_Link": "docs/SWC-120/",
+        "Title": "Weak Sources of Randomness from Chain Attributes",
+        "CWE_Relationship": "CWE-330: Use of Insufficiently Random Values",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/330.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Randomness",
+                "Number": "1414",
+                "Link": "/data/definitions/1414.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-119",
+        "ID_Link": "docs/SWC-119/",
+        "Title": "Shadowing State Variables",
+        "CWE_Relationship": "CWE-710: Improper Adherence to Coding Standards",
+        "CWE_Link": "http://cwe.mitre.org/data/definitions/710.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-118",
+        "ID_Link": "docs/SWC-118/",
+        "Title": "Incorrect Constructor Name",
+        "CWE_Relationship": "CWE-665: Improper Initialization",
+        "CWE_Link": "http://cwe.mitre.org/data/definitions/665.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Resource Lifecycle Management",
+                "Number": "1416",
+                "Link": "/data/definitions/1416.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-117",
+        "ID_Link": "docs/SWC-117/",
+        "Title": "Signature Malleability",
+        "CWE_Relationship": "CWE-347: Improper Verification of Cryptographic Signature",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/347.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Encryption",
+                "Number": "1402",
+                "Link": "/data/definitions/1402.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-116",
+        "ID_Link": "docs/SWC-116/",
+        "Title": "Block values as a proxy for time",
+        "CWE_Relationship": "CWE-829: Inclusion of Functionality from Untrusted Control Sphere",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/829.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Resource Lifecycle Management",
+                "Number": "1416",
+                "Link": "/data/definitions/1416.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-115",
+        "ID_Link": "docs/SWC-115/",
+        "Title": "Authorization through tx.origin",
+        "CWE_Relationship": "CWE-477: Use of Obsolete Function",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/477.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-114",
+        "ID_Link": "docs/SWC-114/",
+        "Title": "Transaction Order Dependence",
+        "CWE_Relationship": "CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/362.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Concurrency",
+                "Number": "1401",
+                "Link": "/data/definitions/1401.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-113",
+        "ID_Link": "docs/SWC-113/",
+        "Title": "DoS with Failed Call",
+        "CWE_Relationship": "CWE-703: Improper Check or Handling of Exceptional Conditions",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/703.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Improper Check or Handling of Exceptional Conditions",
+                "Number": "1405",
+                "Link": "/data/definitions/1405.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-112",
+        "ID_Link": "docs/SWC-112/",
+        "Title": "Delegatecall to Untrusted Callee",
+        "CWE_Relationship": "CWE-829: Inclusion of Functionality from Untrusted Control Sphere",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/829.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Resource Lifecycle Management",
+                "Number": "1416",
+                "Link": "/data/definitions/1416.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-111",
+        "ID_Link": "docs/SWC-111/",
+        "Title": "Use of Deprecated Solidity Functions",
+        "CWE_Relationship": "CWE-477: Use of Obsolete Function",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/477.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-110",
+        "ID_Link": "docs/SWC-110/",
+        "Title": "Assert Violation",
+        "CWE_Relationship": "CWE-670: Always-Incorrect Control Flow Implementation",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/670.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Insufficient Control Flow Management",
+                "Number": "1410",
+                "Link": "/data/definitions/1410.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-109",
+        "ID_Link": "docs/SWC-109/",
+        "Title": "Uninitialized Storage Pointer",
+        "CWE_Relationship": "CWE-824: Access of Uninitialized Pointer",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/824.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Memory Safety",
+                "Number": "1399",
+                "Link": "/data/definitions/1399.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-108",
+        "ID_Link": "docs/SWC-108/",
+        "Title": "State Variable Default Visibility",
+        "CWE_Relationship": "CWE-710: Improper Adherence to Coding Standards",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/710.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-107",
+        "ID_Link": "docs/SWC-107/",
+        "Title": "Reentrancy",
+        "CWE_Relationship": "CWE-841: Improper Enforcement of Behavioral Workflow",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/841.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Insufficient Control Flow Management",
+                "Number": "1410",
+                "Link": "/data/definitions/1410.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-106",
+        "ID_Link": "docs/SWC-106/",
+        "Title": "Unprotected SELFDESTRUCT Instruction",
+        "CWE_Relationship": "CWE-284: Improper Access Control",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/284.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Access Control",
+                "Number": "1396",
+                "Link": "/data/definitions/1396.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-105",
+        "ID_Link": "docs/SWC-105/",
+        "Title": "Unprotected Ether Withdrawal",
+        "CWE_Relationship": "CWE-284: Improper Access Control",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/284.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Access Control",
+                "Number": "1396",
+                "Link": "/data/definitions/1396.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-104",
+        "ID_Link": "docs/SWC-104/",
+        "Title": "Unchecked Call Return Value",
+        "CWE_Relationship": "CWE-252: Unchecked Return Value",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/252.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Improper Check or Handling of Exceptional Conditions",
+                "Number": "1405",
+                "Link": "/data/definitions/1405.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-103",
+        "ID_Link": "docs/SWC-103/",
+        "Title": "Floating Pragma",
+        "CWE_Relationship": "CWE-664: Improper Control of a Resource Through its Lifetime",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/664.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Resource Lifecycle Management",
+                "Number": "1416",
+                "Link": "/data/definitions/1416.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-102",
+        "ID_Link": "docs/SWC-102/",
+        "Title": "Outdated Compiler Version",
+        "CWE_Relationship": "CWE-937: Using Components with Known Vulnerabilities",
+        "CWE_Link": "http://cwe.mitre.org/data/definitions/937.html",
+        "Categorizations": []
+    },
+    {
+        "ID": "SWC-101",
+        "ID_Link": "docs/SWC-101/",
+        "Title": "Integer Overflow and Underflow",
+        "CWE_Relationship": "CWE-682: Incorrect Calculation",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/682.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Incorrect Calculation",
+                "Number": "1408",
+                "Link": "/data/definitions/1408.html"
+            }
+        ]
+    },
+    {
+        "ID": "SWC-100",
+        "ID_Link": "docs/SWC-100/",
+        "Title": "Function Default Visibility",
+        "CWE_Relationship": "CWE-710: Improper Adherence to Coding Standards",
+        "CWE_Link": "https://cwe.mitre.org/data/definitions/710.html",
+        "Categorizations": [
+            {
+                "Type": "Comprehensive Categorization",
+                "Category": "Poor Coding Practices",
+                "Number": "1412",
+                "Link": "/data/definitions/1412.html"
+            }
+        ]
+    }
+]
